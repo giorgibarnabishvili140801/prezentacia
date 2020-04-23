@@ -1,0 +1,55 @@
+.vertical-menu {
+  width: 200px; 
+}
+
+.vertical-menu a {
+  background-color:black;
+  color:white;
+  display: block; 
+  padding: 12px; 
+  text-decoration: none;
+  border-bottom: 1px solid red;
+}
+
+.vertical-menu a:hover {
+  background-color:red;
+}
+
+.vertical-menu a.active {
+  background-color:red; 
+  color: white;
+  
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:red;
+  }
+  li {
+    border-right: 1px solid red;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  body{
+      background-color: grey;
+  }
